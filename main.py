@@ -14,7 +14,7 @@ N3 = int(input('Enter Number 3:'))
 A3 = 0
 B = ' '
 while N3 > A3:
-    print((B * (N3 + A3)) + '*' * (N3 - A3))
+    print((B * A3) + '*' * (N3 - A3))
     A3 += 1
 
 N4 = int(input('Enter Number 4:'))
